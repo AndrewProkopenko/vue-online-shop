@@ -1,0 +1,42 @@
+// @import 'bootstrap/scss/bootstrap.scss';  
+
+
+$light : #f3f3f3;
+$main_green: #42b983;
+
+body { 
+    background: $light;
+}
+
+.btn-v-custom {
+    border: 1px solid $main_green;
+    padding: 5px 30px;
+    border-radius: 30px;
+    color: $main_green; 
+    font-size: 1rem;
+    font-weight: 600; 
+    transition: 300ms ease;
+    &:hover { 
+        background-color: $main_green;
+        color: #fff;
+    }
+}
+.btn:focus { 
+    outline: none;
+    box-shadow: none;
+}
+
+.v-margin-header  { 
+    margin-top: 80px;
+}
+
+.heading { 
+    h3 { 
+        display: block;
+        text-align: center;
+        font-size: 3rem; 
+        line-height: 3rem;
+        padding: 30px 10px;
+        margin: 0;
+    }
+}
